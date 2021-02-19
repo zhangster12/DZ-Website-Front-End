@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.contact-form {
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 0px 10%;
+    width: 100%;
+}
+
+.instruct {
+    padding-bottom: 20px;
+}
+
+.instruct a {
+    color: #3377cc;
+    text-decoration: none;
+}
+
+.instruct a:hover {
+    color: #809aeb;
+}
+
+.red {
+    color: #e80000;
+}
+
+.form-item {
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.contact-form input, .contact-form textarea {
+    background-color: #00000009;
+    border: none;
+    border-bottom: 2px solid #e0e0e0;
+    font-size: 16px;
+    outline: none;
+    resize: vertical;
+    padding: 0px; /* Makes padding even on both sides. */
+    transition: border-bottom 0.25s ease-in-out;;
+    width: 100%;
+}
+
+.contact-form input:focus {
+    border-bottom: 2px solid #325d7b;
+}
+
+.contact-form textarea:focus {
+    border-bottom: 2px solid #325d7b;
+}
+
+.btn {
+    background-color: #021435;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    outline: none;
+    text-align: center;
+    width: 130px;
+}
+
+.btn:disabled {
+    background-color: #34425D;
+    cursor: default;
+}
+
+.btn:hover {
+    background-color: #34425D;
+}
+
+.green {
+    color: #228B22;
+}
+
+#message {
+    padding: 0px 20px;
+}

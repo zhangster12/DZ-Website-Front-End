@@ -1,0 +1,145 @@
+/* Default Style (Smartphone) */ 
+
+nav {
+    background-color: #f7f7f7;
+}
+
+nav * {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 20px 0px;
+    width: 90%;
+}
+
+.logo {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.toggle-button {
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    height: fit-content;
+    transition: all 0.5s ease;
+}
+
+.toggle-button .bar {
+    background-color: #999999;
+    border-radius: 2px;
+    margin: 4px;
+    height: 4px;
+    width: 30px;
+}
+
+.toggle-button:hover > .bar {
+    background-color: black;
+}
+
+#nav-links {
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+/* Changes between collasped and open view. */
+.nav-collasped {
+    max-height: 0px;
+}
+
+.nav-open {
+    max-height: 1000px;
+}
+
+#nav-links a {
+    border: 1px solid #999999;
+    color: #999999;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px auto;
+    padding: 7.5px 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
+    width: 90%;
+}
+
+
+#nav-links a:hover {
+    color: black;
+}
+
+/* Responsive Mode */
+
+@media screen and (min-width: 1200px) {
+    nav {
+        padding: 0px 17.5%;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    nav {
+        padding: 0px 12.5%;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    nav {
+        padding: 0px 7.5%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        align-items: center; 
+        display: flex;
+        justify-content: space-between;
+        margin: 0px auto;
+        
+        /* Fixes header to top. */
+        box-sizing: border-box;
+        height: 75px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .toggle-button {
+        display: none;
+    }
+
+    #nav-links {
+        display: flex;
+        height: auto;
+        overflow: visible;
+    }
+
+    #nav-links a {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        margin: 0px 5px;
+        padding: 5px 7.5px;
+    }
+
+    #nav-links a:hover {
+        border: 1px solid #999999;
+    }
+
+    .nav-collasped {
+        max-height: 1000px;
+    }
+}

@@ -1,0 +1,64 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    line-height: 1.45;
+    color: #333333;
+}
+
+.container {
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    margin: 0px auto; /* Centers the container. Don't use with position: absolute. */
+    width: 65%;
+}
+
+.container hr {
+    border-color: black;
+    border-width: 2px;
+    background-color: black;
+}
+
+.page-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+/* Responsive Mode */
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .container {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .container {
+        width: 82.5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding-top: 75px;
+    }
+}

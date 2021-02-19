@@ -1,0 +1,42 @@
+.footer {
+    align-items: center;
+    border-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 400; /* Changes boldness. */
+    margin: 0px auto;
+    padding: 10px 0px;
+    text-align: center;
+    width: 90%;
+}
+
+.icons img {
+    display: inline-block;
+    opacity: 0.5;
+    padding: 10px;
+    width: 25px;
+}
+
+.icons img:hover {
+    opacity: 1;
+}
+
+.footer-menu {
+    padding: 0px 5px;
+}
+
+#footer-link a {
+    color: #999999;
+    text-decoration: none;
+}
+
+#footer-link a:hover {
+    color: black;
+}
+
+.footer-copyright {
+    margin: 10px 0px;
+}
