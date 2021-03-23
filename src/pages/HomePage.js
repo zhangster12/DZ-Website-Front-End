@@ -22,7 +22,7 @@ class Home extends React.Component {
         <div className='intro'>
           <div className='page-header'>Hey there, I'm Dan!</div>
           <p>I’m a Flight Test Engineer at Lockheed Martin and a Georgia Tech alumnus.</p>
-          <p>“Continuous improvement is better than delayed perfection.”</p>
+          <p>“If you can’t fly then run, if you can’t run then walk, if you can’t walk then crawl, but whatever you do you have to keep moving forward.” -Martin Luther King, Jr.</p>
         </div>
         <hr />
         <div className='exp-header'>Here's what I've done</div>
