@@ -17,6 +17,7 @@
     display: inline-block;
     opacity: 0.5;
     padding: 10px;
+    transition: all 0.25s ease;
     width: 25px;
 }
 
@@ -31,6 +32,7 @@
 #footer-link a {
     color: #999999;
     text-decoration: none;
+    transition: all 0.25s ease;
 }
 
 #footer-link a:hover {
