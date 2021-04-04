@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//import { NavLink, Router } from 'react-router-dom';
 import onClickOutside from 'react-onclickoutside';
 
 // CSS import statements
@@ -7,13 +6,13 @@ import '../css/NavBar.css'
 
 function NavBar() {
     const [open, setOpen] = useState(false);
-    NavBar.handleClickOutside = () => setOpen(false);
+    NavBar.handleClickOutside = () => setOpen(false); 
 
     return(
         <nav>
             <div className='navbar-container'>
                 <a href='/' className='logo'>Daniel Zhang</a>
-                <div className='toggle-button' onClick={() => setOpen(!open)}>
+                <div className='toggle-button' onScroll={() => setOpen(!open)} onClick={() => setOpen(!open)}>
                     <div className='bar' />
                     <div className='bar' />
                     <div className='bar' />
