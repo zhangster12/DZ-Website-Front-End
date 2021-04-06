@@ -35,6 +35,11 @@ nav * {
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 0.25s ease;
+}
+
+.logo:hover {
+    opacity: 0.5;
 }
 
 .toggle-button {
