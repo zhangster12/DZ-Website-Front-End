@@ -1,7 +1,7 @@
 import React from 'react';
 
 // CSS import statements
-import '../css/AboutPage.css';
+import '../css/PageLayout.css';
 import '../css/App.css';
 
 // Content import Statement
@@ -15,7 +15,7 @@ class About extends React.Component {
 
     render() {
         return(
-            <div className='about-page'>
+            <div className='layout'>
                 <div className="page-header">{this.state.about[0].name}</div>
                 <div>
                     {this.state.about.map((currAbout) =>

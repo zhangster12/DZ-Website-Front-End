@@ -17,6 +17,10 @@ p {
     color: #333333;
 }
 
+a {
+    transition: all 0.25s ease;
+}
+
 .container {
     box-sizing: border-box;
     flex: 1 0 auto;

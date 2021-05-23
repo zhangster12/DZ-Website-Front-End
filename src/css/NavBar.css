@@ -2,14 +2,12 @@
 
 nav {
     background-color: #f7f7f7;
-
-    /* Fixes header to top. */
-    box-sizing: border-box;
+    box-sizing: border-box; /* Fixes header to top. */
     height: 75px;
     position: fixed;
     top: 0;
     width: 100%;
-    
+    z-index: 10; 
 }
 
 nav * {
@@ -89,7 +87,6 @@ nav * {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all 0.25s ease;
     width: 90%;
 }
 

@@ -36,7 +36,7 @@ class Contact extends Component {
                 disabled: true,
                 emailSent: null
             });
-            Axios.post('https://daniel-zhang-portfolio-backend.herokuapp.com/api/email', this.state)
+            Axios.post(`${process.env.REACT_APP_API_CONTACT_URL}`, this.state)
                 .then(res => {
                     if(res.data.success) {
                         this.setState({

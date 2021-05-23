@@ -1,0 +1,29 @@
+.layout {
+    padding: 0px 10%;
+}
+
+#blog {
+    text-align: center;
+}
+
+.blog-entry {
+    padding: 20px 0px;
+}
+
+.blog-entry-title {
+    color: #3377cc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.blog-entry-title:hover {
+    color: #809aeb;
+}
+
+.blog-entry-date {
+    color: #325d7b;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
+    margin: 10px 0px;
+}
