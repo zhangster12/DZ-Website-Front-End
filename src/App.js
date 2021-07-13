@@ -32,7 +32,6 @@ class App extends React.Component {
             </Switch>
           </Router>
         </div>
-        <script data-ad-client="ca-pub-3772565119336414" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <Footer />
       </div>
     );
