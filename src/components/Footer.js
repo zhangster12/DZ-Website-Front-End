@@ -5,6 +5,7 @@ import ResumePDF from '../content/Resume.pdf'
 import '../css/Footer.css';
 
 // Image import statements
+import GitHub from '../img/github.png';
 import LinkedIn from '../img/linkedIn.png';
 import Mail from '../img/mail.png';
 import Resume from '../img/resume.png';
@@ -26,6 +27,11 @@ function Footer() {
                 <span>
                     <a href={ResumePDF} rel='noopener noreferrer' target='_blank'>
                         <img src={Resume} alt='Resume' />
+                    </a>
+                </span>
+                <span>
+                    <a href='https://github.com/zhangster12' rel='noopener noreferrer' target='_blank'>
+                        <img src={GitHub} alt='GitHub' />
                     </a>
                 </span>
             </div>

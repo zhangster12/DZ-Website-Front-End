@@ -27,3 +27,22 @@
     /* font-weight: bold; */
     margin: 10px 0px;
 }
+
+.loading-show {
+    visibility: visible;
+}
+
+.loading-hidden {
+    visibility: hidden;
+}
+
+.MuiCircularProgress-colorPrimary {
+    color: #809aeb !important;
+}
+
+#center { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}

@@ -3,6 +3,7 @@ import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import CircularProgress  from '@material-ui/core/CircularProgress';
 
 // CSS import statements
 import '../css/App.css';
@@ -10,6 +11,7 @@ import '../css/PageLayout.css'
 
 const Blog = () => {
     const [blogs, setBlogs] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     //Sets all blogs
     useEffect(() => {
@@ -17,6 +19,7 @@ const Blog = () => {
             try {
                 const res = await axios.get(`${process.env.REACT_APP_API_BLOG_URL}/api/blog/`);
                 setBlogs(res.data);
+                setLoading(false)
             }
             catch(err) {}
         }
@@ -51,7 +54,8 @@ const Blog = () => {
         <div>
             <div className='layout'>
                 <div className='page-header' id='blog'>Days with Dan!</div>
-                {getBlogs()}
+                <div className={loading ? 'loading-hidden' : 'loading-show'}>{getBlogs()}</div>
+                <div className={loading ? 'loading-show': 'loading-hidden'} id='center'><CircularProgress color='primary' /></div>
             </div>
         </div>
     );
