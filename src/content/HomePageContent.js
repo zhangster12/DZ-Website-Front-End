@@ -10,13 +10,13 @@ let HomePageContent = {
     name: 'Sikorsky - Lockheed Martin 🚁',
     link: 'https://www.lockheedmartin.com/en-us/products/sikorsky-ch-53k-helicopter.html',
     title: 'Flight Test Engineer',
-    time: 'Since November 2019',
+    time: 'November 2019 - August 2021',
     location: 'Patuxent River, MD',
     desc: [
       'My team works on the flight controls and handling qualities of the Sikorsky CH-53K King Stallion. The 53K is a heavy-lift cargo helicopter that will be delivered to the US Marine Corps and will replace the previous 53E.',
-      'Currently, one of my main responsibilities is to support real-time telemetry operations during flight testing. Telemetry not only determines where the flight controls needs to be adjusted but is also essential to pilot safety. From that data, I analyze and process them to report results and conclusions. I’ve given a training about the telemetry screens, because there’s a large amount of information and data used to monitor flights, which can be overwhelming.',
-      'So far, one of the main lessons I’ve learned is to learn from different people and sources. When there are so many flight test disciplines in the program, it’s difficult to know everything about the aircraft, so drawing information from different sources not only broadens your perspective on an issue, but also ensures that the solution is in the right direction.',
-      'One thing I’ve realized about myself is that I tend to rush through my work, which can lead to mistakes. When my team and I worked on the training presentation, we tweaked it until it properly conveyed the information we wanted. Over time, I took more time to check with my team to receive meaningful feedback for projects.'
+      'I supported real-time telemetry operations during flight testing. Telemetry not only determines where the flight controls needs to be adjusted but is also essential to pilot safety. From that data, I analyzed and processed them to report results and conclusions. I’ve given a training about the telemetry screens, because there’s a large amount of information and data used to monitor flights, which can be overwhelming. I also wrote a test plan with test points to verify software functionality and corrections.',
+      'One of the main lessons I’ve learned is to draw from different people and sources. When there are so many flight test disciplines in the program, it’s difficult to know everything about the aircraft, so drawing information from different sources not only broadens your perspective on an issue, but also ensures that the solution is in the right direction.',
+      'One thing I’ve realized about myself is that I tended to rush through my work, which can lead to mistakes. When my team and I worked on the training presentation, we tweaked it until it properly conveyed the information we wanted. Over time, I took more time to check with my team to receive meaningful feedback for projects.'
     ],
     id: 1
   }, {

@@ -41,7 +41,7 @@ function Footer() {
                 <span className='footer-menu' id='footer-link'><a href='/blog'>Blog</a></span>
                 <span className='footer-menu' id='footer-link'><a href='/contact'>Contact</a></span>
             </div>
-            <div className='footer-copyright' id='footer-link'>© 2020 Daniel Zhang. This site was made by Daniel Zhang from scratch with React. Icons by <a href='https://icons8.com/' rel='noopener noreferrer' target='_blank'>Icons8</a>.</div>
+            <div className='footer-copyright' id='footer-link'>© 2021 Daniel Zhang. This site was made by Daniel Zhang from scratch with React. Icons by <a href='https://icons8.com/' rel='noopener noreferrer' target='_blank'>Icons8</a>.</div>
         </footer>
     );
 }
