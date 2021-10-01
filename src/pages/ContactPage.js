@@ -67,7 +67,7 @@ class Contact extends Component {
 
         if (!this.state.name) {
             nameError = 'Name is required.';
-        } else if (!validator.isLength(this.state.name, {min: 1}) || validator.isInt(this.state.name)) {
+        } else if (!validator.isLength(this.state.name, {min: 2}) || validator.isInt(this.state.name)) {
             nameError = 'Name is invalid.'
         }
 
@@ -79,13 +79,13 @@ class Contact extends Component {
 
         if (!this.state.subject) {
             subjectError = 'Subject is required.';
-        } else if (!validator.isLength(this.state.subject, {min: 1}) || validator.isInt(this.state.subject)) {
+        } else if (!validator.isLength(this.state.subject, {min: 2}) || validator.isInt(this.state.subject)) {
             subjectError = 'Subject is invalid.'
         }
 
         if (!this.state.message) {
             messageError = 'Message is required.';
-        } else if (!validator.isLength(this.state.message, {min: 1}) || validator.isInt(this.state.message)) {
+        } else if (!validator.isLength(this.state.message, {min: 2}) || validator.isInt(this.state.message)) {
             messageError = 'Message is invalid.'
         }
 

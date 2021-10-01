@@ -31,3 +31,12 @@
     max-width: 100%;
     width: 500px;
 }
+
+.blog-content a {
+    color: #3377cc;
+    text-decoration: none;
+}
+
+.blog-content a:hover {
+    color: #809aeb;
+}
