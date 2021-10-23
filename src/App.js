@@ -14,28 +14,28 @@ import Home from './pages/HomePage.js';
 import NavBar from './components/NavBar.js';
 
 class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <NavBar />
-        <div className='container'>
-          <Router>
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route exact path='/about' component={About} />
-              {/* Adds blog and blog pages (BlogDetail). */}
-              <Route exact path='/blog' component={Blog} />
-              <Route exact path='/blog/:id' component={BlogDetail} />
-              <Route exact path='/contact' component={Contact} />
-              {/* Adds page not found. */}
-              <Route component={Home} />
-            </Switch>
-          </Router>
+    render() {
+        return (
+        <div>
+            <NavBar />
+            <div className='container'>
+                <Router>
+                    <Switch>
+                    <Route exact path='/' component={Home} />
+                    <Route exact path='/about' component={About} />
+                    {/* Adds blog and blog pages (BlogDetail). */}
+                    <Route exact path='/blog' component={Blog} />
+                    <Route exact path='/blog/:id' component={BlogDetail} />
+                    <Route exact path='/contact' component={Contact} />
+                    {/* Adds page not found. */}
+                    <Route component={Home} />
+                    </Switch>
+                </Router>
+            </div>
+            <Footer />
         </div>
-        <Footer />
-      </div>
-    );
-  }
+        );
+    }
 }
 
 export default App;

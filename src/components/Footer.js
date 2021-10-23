@@ -5,10 +5,11 @@ import ResumePDF from '../content/Resume.pdf'
 import '../css/Footer.css';
 
 // Image import statements
-import GitHub from '../img/github.png';
-import LinkedIn from '../img/linkedIn.png';
-import Mail from '../img/mail.png';
-import Resume from '../img/resume.png';
+import GitHub from '../img/footer/github.png';
+import LinkedIn from '../img/footer/linkedIn.png';
+import Mail from '../img/footer/mail.png';
+import Resume from '../img/footer/resume.png';
+import YouTube from '../img/footer/youtube.png';
 
 function Footer() {
     return(
@@ -32,6 +33,11 @@ function Footer() {
                 <span>
                     <a href='https://github.com/zhangster12' rel='noopener noreferrer' target='_blank'>
                         <img src={GitHub} alt='GitHub' />
+                    </a>
+                </span>
+                <span>
+                    <a href='https://www.youtube.com/channel/UCOMUSbE2BYVBK6P9yLQhV5Q' rel='noopener noreferrer' target='_blank'>
+                        <img src={YouTube} alt='YouTube' />
                     </a>
                 </span>
             </div>

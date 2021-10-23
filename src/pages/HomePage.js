@@ -11,25 +11,25 @@ import Experience from '../components/Experience.js';
 import HomePageContent from '../content/HomePageContent.js';
 
 class Home extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = HomePageContent;
-  }
+    constructor(props) {
+        super(props);
+        this.state = HomePageContent;
+    }
 
-  render() {
-    return(
-      <div>
-        <div className='intro'>
-          <div className='page-header'>Hey there, I'm Dan!</div>
-          <p>I’m a Georgia Tech alumnus. Go Jackets!</p>
-          <p>“If you can’t fly then run, if you can’t run then walk, if you can’t walk then crawl, but whatever you do you have to keep moving forward.” -Martin Luther King, Jr.</p>
-        </div>
-        <hr />
-        <div className='exp-header'>Here's what I've been up to</div>
-        <Experience exp={this.state.experience} />
-      </div>
-    )
-  }
+    render() {
+        return(
+            <div>
+                <div className='intro'>
+                <div className='page-header'>Hey there, I'm Dan!</div>
+                <p>I’m a Georgia Tech alumnus. Go Jackets!</p>
+                <p>“If you can’t fly then run, if you can’t run then walk, if you can’t walk then crawl, but whatever you do you have to keep moving forward.” -Martin Luther King, Jr.</p>
+                </div>
+                <hr />
+                <div className='exp-header'>Here's what I've been up to</div>
+                <Experience exp={this.state.experience} />
+            </div>
+        )
+    }
 }
 
 export default Home;
