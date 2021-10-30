@@ -5,16 +5,16 @@
     width: 100%;
 }
 
-.instruct {
+.instr {
     padding-bottom: 20px;
 }
 
-.instruct a {
+.instr a {
     color: var(--experience-header-color);
     text-decoration: underline transparent;
 }
 
-.instruct a:hover {
+.instr a:hover {
     text-decoration: underline;
 }
 

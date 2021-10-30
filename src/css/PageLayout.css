@@ -11,7 +11,7 @@
 }
 
 .blog-entry-title {
-    color: #8AB4F8;
+    color: var(--experience-header-color);
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     text-decoration: underline transparent;

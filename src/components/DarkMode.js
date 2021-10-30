@@ -34,7 +34,7 @@ const DarkMode = () => {
     };
 
     return (
-        <span className={theme === "dark" ? clickedClass : ''} id='darkMode' onClick={(e) => switchTheme(e)}>Dark Mode</span>
+        <span className={theme === 'dark' ? clickedClass : ''} id='darkMode' onClick={(e) => switchTheme(e)}>Dark Mode</span>
     );
 };
 

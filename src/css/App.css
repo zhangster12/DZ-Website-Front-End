@@ -48,7 +48,7 @@ body {
 
 p {
     line-height: 1.45;
-    color: var(--text-color-p); /* Dark mode */
+    color: var(--text-color-p);
 }
 
 a {
@@ -64,17 +64,25 @@ a {
 }
 
 .container hr {
-    border-top: 3px solid var(--text-color);
+    border: 2px solid var(--text-color);
     background-color: var(--text-color);
-    border-color: var(--text-color);
 
+}
+
+.home-video {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.home-video iframe {
+    max-width: 100%;
 }
 
 .page-header {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 600;
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 
 /* Responsive Mode */
