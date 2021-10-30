@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import onClickOutside from 'react-onclickoutside';
+import DarkMode from './DarkMode.js';
 
 // CSS import statements
 import '../css/NavBar.css'
 
 function NavBar() {
     const [open, setOpen] = useState(false);
-    NavBar.handleClickOutside = () => setOpen(false); 
+    NavBar.handleClickOutside = () => setOpen(false);
 
     return(
         <nav>
@@ -23,6 +24,7 @@ function NavBar() {
                 <a href='/about'>About</a>
                 <a href='/blog'>Blog</a>
                 <a href='/contact'>Contact</a>
+                <div className='darkmode'><DarkMode /></div>
             </div>
         </nav>
     );

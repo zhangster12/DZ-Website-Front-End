@@ -11,20 +11,19 @@
 }
 
 .blog-entry-title {
-    color: #3377cc;
+    color: #8AB4F8;
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
-    text-decoration: none;
+    text-decoration: underline transparent;
 }
 
 .blog-entry-title:hover {
-    color: #809aeb;
+    text-decoration: underline;
 }
 
 .blog-entry-date {
-    color: #325d7b;
+    color: var(--experience-subheader-color);
     font-family: 'Montserrat', sans-serif;
-    /* font-weight: bold; */
     margin: 10px 0px;
 }
 
@@ -37,7 +36,7 @@
 }
 
 .MuiCircularProgress-colorPrimary {
-    color: #809aeb !important;
+    color: #8AB4F8 !important;
 }
 
 #center { 

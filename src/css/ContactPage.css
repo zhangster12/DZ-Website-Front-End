@@ -10,12 +10,12 @@
 }
 
 .instruct a {
-    color: #3377cc;
-    text-decoration: none;
+    color: var(--experience-header-color);
+    text-decoration: underline transparent;
 }
 
 .instruct a:hover {
-    color: #809aeb;
+    text-decoration: underline;
 }
 
 .red {
@@ -34,23 +34,24 @@
 }
 
 .contact-form input, .contact-form textarea {
-    background-color: #00000009;
+    background-color: var(--contact-background-color);
     border: none;
     border-bottom: 3px solid #e0e0e0;
+    color: var(--text-color);
     font-size: 16px;
     outline: none;
     resize: vertical;
     padding: 0px; /* Makes padding even on both sides. */
-    transition: border-bottom 0.25s ease;
+    transition: all 0.25s ease;
     width: 100%;
 }
 
 .contact-form input:focus {
-    border-bottom: 3px solid #325d7b;
+    border-bottom: 3px solid var(--input-border-color);
 }
 
 .contact-form textarea:focus {
-    border-bottom: 3px solid #325d7b;
+    border-bottom: 3px solid var(--input-border-color);
 }
 
 .btn {
@@ -74,7 +75,8 @@
 }
 
 .btn:hover {
-    background-color: #34425D;
+    /* background-color: #34425D; */
+    opacity: 0.5;
 }
 
 .green {

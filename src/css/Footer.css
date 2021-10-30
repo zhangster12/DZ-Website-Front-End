@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    font-weight: 400; /* Changes boldness. */
+    font-weight: 400; /* Changes boldness */
     margin: 0px auto;
     padding: 10px 0px;
     text-align: center;
@@ -13,6 +13,7 @@
 
 .icons img {
     display: inline-block;
+    filter: var(--footer-icon-filter); /* Dark mode */
     opacity: 0.5;
     padding: 10px;
     transition: all 0.25s ease;
@@ -28,14 +29,26 @@
 }
 
 #footer-link a {
-    color: #999999;
+    color: var(--nav-link-color);
     text-decoration: none;
 }
 
 #footer-link a:hover {
-    color: black;
+    color: var(--footer-link-color-hover);
+    opacity: var(--footer-link-opacity);
+}
+
+#footer-darkmode {
+    color: var(--nav-link-color);
+    cursor: pointer;
+}
+
+#footer-darkmode:hover {
+    color: var(--footer-link-color-hover);
+    opacity: var(--footer-link-opacity);
 }
 
 .footer-copyright {
+    color: var(--text-color); /* Dark mode */
     margin: 10px 0px;
 }

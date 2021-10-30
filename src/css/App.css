@@ -1,10 +1,44 @@
+/* Applies to everything */
 * {
     font-family: 'Lato', sans-serif;
+}
+
+body.light {
+    --background-color: white;
+    --contact-background-color: #00000009;
+    --experience-header-color: #3377cc;
+    --experience-subheader-color: #325d7b;
+    --footer-link-color-hover: black;
+    --input-border-color: #325d7b;
+    --nav-background-color: #f7f7f7;
+    --nav-border: #999999;
+    --nav-link-color-hover: black;
+    --nav-link-color: #999999;
+    --text-color-p: #333333;
+    --text-color: black;
+}
+
+body.dark {
+    --background-color: #212121;
+    --contact-background-color: black;
+    --experience-header-color: #8AB4F8;
+    --experience-subheader-color: #BDC1C6;
+    --footer-icon-filter: invert(1);
+    --footer-link-opacity: 0.5;
+    --input-border-color: #8AB4F8;
+    --nav-background-color: black;
+    --nav-border: transparent;
+    --nav-link-color: white;
+    --text-color-p: #BDC1C6;
+    --text-color: white;
 }
 
 html, body {
     height: 100%;
     margin: 0px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: all 0.5s ease;
 }
 
 body {
@@ -14,7 +48,7 @@ body {
 
 p {
     line-height: 1.45;
-    color: #333333;
+    color: var(--text-color-p); /* Dark mode */
 }
 
 a {
@@ -30,9 +64,10 @@ a {
 }
 
 .container hr {
-    border-color: black;
-    border-width: 2px;
-    background-color: black;
+    border-top: 3px solid var(--text-color);
+    background-color: var(--text-color);
+    border-color: var(--text-color);
+
 }
 
 .page-header {

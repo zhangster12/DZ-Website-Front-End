@@ -20,27 +20,27 @@
     width: 35%;
 }
 
-.exp-container .description {
-    line-height: 1.45;
-    padding-left: 45px;
-}
-
 .description .header a {
-    color: #3377cc;
+    color: var(--experience-header-color);
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
-    text-decoration: none;
+    text-decoration: underline transparent;
 }
 
 .description .header a:hover {
-    color: #809aeb;
+    text-decoration: underline;
 }
 
 .description .sub-header {
-    color: #325d7b;
+    color: var(--experience-subheader-color);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     margin: 2.5px 0px;
+}
+
+.exp-container .description {
+    line-height: 1.45;
+    padding-left: 45px;
 }
 
 /* Responsive Mode */

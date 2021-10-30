@@ -10,7 +10,7 @@
 }
 
 .back a:hover {
-    color: black;
+    color: var(--text-color);
 }
 
 .blog-thumbnail img {
@@ -33,10 +33,10 @@
 }
 
 .blog-content a {
-    color: #3377cc;
-    text-decoration: none;
+    color: var(--experience-header-color);
+    text-decoration: underline transparent;
 }
 
 .blog-content a:hover {
-    color: #809aeb;
+    text-decoration: underline;
 }
