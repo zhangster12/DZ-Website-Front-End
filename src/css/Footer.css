@@ -31,21 +31,24 @@
 #footer-link a {
     color: var(--nav-link-color);
     text-decoration: none;
+    opacity: var(--footer-link-opacity);
 }
 
 #footer-link a:hover {
     color: var(--footer-link-color-hover);
-    opacity: var(--footer-link-opacity);
+    opacity: 1;
 }
 
 #footer-darkmode {
     color: var(--nav-link-color);
+    text-decoration: none;
+    opacity: var(--footer-link-opacity);
     cursor: pointer;
 }
 
 #footer-darkmode:hover {
     color: var(--footer-link-color-hover);
-    opacity: var(--footer-link-opacity);
+    opacity: 1;
 }
 
 .footer-copyright {
