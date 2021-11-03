@@ -109,6 +109,7 @@ nav * {
     text-transform: uppercase;
     width: 90%;
     white-space: nowrap;
+    transition: all 0.5s ease;
 }
 
 .darkmode:hover {
@@ -131,6 +132,7 @@ nav * {
     }
 
     #nav-links {
+        background-color: transparent;
         display: flex;
         height: auto;
         overflow: visible;

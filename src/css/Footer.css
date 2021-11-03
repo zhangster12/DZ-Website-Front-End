@@ -44,6 +44,7 @@
     text-decoration: none;
     opacity: var(--footer-link-opacity);
     cursor: pointer;
+    transition: all 0.25s ease;
 }
 
 #footer-darkmode:hover {
