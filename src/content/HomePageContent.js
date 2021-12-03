@@ -1,10 +1,21 @@
-// Image import statements
+// Image import statements (use 12.5% for rounded corners)
 import Sikorsky from '../img/Sikorsky.png';
 import Sub from '../img/Columbia.png';
 import Tower from '../img/TechTower.png';
+import Axis from '../img/AxisGroup.png';
 
 let HomePageContent = {
     experience: [{
+        logo: Axis,
+        alt: 'Axis Group',
+        name: 'Axis Group',
+        link: 'https://www.axisgroup.com/',
+        title: 'Associate Solution Consultant',
+        time: 'From November 2021',
+        location: 'Atlanta, GA',
+        desc: [],
+        id: 1
+    }, {
         logo: Sikorsky,
         alt: 'Sikorsky',
         name: 'Sikorsky - Lockheed Martin 🚁',
@@ -18,7 +29,7 @@ let HomePageContent = {
             'One of the main lessons I’ve learned is to draw from different people and sources. When there are so many flight test disciplines in the program, it’s difficult to know everything about the aircraft, so drawing information from different sources not only broadens your perspective on an issue, but also ensures that the solution is in the right direction.',
             'One thing I’ve realized about myself is that I tended to rush through my work, which can lead to mistakes. When my team and I worked on the training presentation, we tweaked it until it properly conveyed the information we wanted. Over time, I took more time to check with my team to receive meaningful feedback for projects.'
         ],
-        id: 1
+        id: 2
     }, {
         logo: Sub,
         alt: 'JRC',
@@ -32,7 +43,7 @@ let HomePageContent = {
             'Over summer 2018, I helped develop systems engineering plans for SWS Ashore. I created testing timelines and test plan definitions, prepared JRC input for the Navy Critical Design Review, and updated existing test plans.',
             'This internship was very rewarding, and I learned a great deal about systems engineering. Afterwards, I realized was that I could have been more vocal and asked more questions. Throughout the course of the internship, I mostly focused on the projects I was given but not enough on requesting feedback. Hence, if I were to do it differently, I would have treated it more as an opportunity to learn and make mistakes.'
         ],
-        id: 2
+        id: 3
     }, {
         logo: Tower,
         alt: 'Georgia Tech',
@@ -45,7 +56,7 @@ let HomePageContent = {
             'Georgia Tech provided extraordinary growth and opportunity. My four years of phenomenal professors across different disciplines encouraged me to find my passion for learning. My involvement at Georgia Tech Swim Club enriched my experience and surrounded me with a group of lifelong friends. My experience lifeguarding at the GT McAuley Aquatic Center helped me to develop my leadership and confidence and deal with high stress situations calmly. My two semesters abroad in Hong Kong and Ireland humbled me to explore other cultures and this world. While designing a space flight mission concept and formulating business plan idea, I learned that effective communication leads to quality results.',
             'Georgia Tech brought me out of my comfort zone, opened my mind to different possibilities, and strengthened my tolerance to adversity.'
         ],
-        id: 3
+        id: 4
 }]};
 
 export default HomePageContent;

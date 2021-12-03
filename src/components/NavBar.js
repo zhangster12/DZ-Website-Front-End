@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import onClickOutside from 'react-onclickoutside';
-import DarkMode from './DarkMode.js';
+//import DarkMode from './DarkMode.js';
 
 // CSS import statements
 import '../css/NavBar.css'
@@ -24,7 +24,7 @@ function NavBar() {
                 <a href='/about'>About</a>
                 <a href='/blog'>Blog</a>
                 <a href='/contact'>Contact</a>
-                <div className='darkmode'><DarkMode /></div>
+                {/* <div className='darkmode'><DarkMode /></div> */}
             </div>
         </nav>
     );
