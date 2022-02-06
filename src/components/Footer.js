@@ -11,6 +11,7 @@ import LinkedIn from '../img/footer/linkedIn.png';
 import Mail from '../img/footer/mail.png';
 import Resume from '../img/footer/resume.png';
 import YouTube from '../img/footer/youtube.png';
+import TikTok from '../img/footer/tiktok.png';
 
 function Footer() {
     return(
@@ -39,6 +40,11 @@ function Footer() {
                 <span>
                     <a href='https://www.youtube.com/channel/UCOMUSbE2BYVBK6P9yLQhV5Q' rel='noopener noreferrer' target='_blank'>
                         <img src={YouTube} alt='YouTube' />
+                    </a>
+                </span>
+                <span>
+                    <a href='https://www.tiktok.com/@thedancooks?lang=en' rel='noopener noreferrer' target='_blank'>
+                        <img src={TikTok} alt='TikTok' />
                     </a>
                 </span>
             </div>
