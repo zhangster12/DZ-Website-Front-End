@@ -42,7 +42,7 @@
     outline: none;
     resize: vertical;
     padding: 0px; /* Makes padding even on both sides. */
-    transition: all 0.25s ease;
+    transition: border-bottom 0.25s ease;
     width: 100%;
 }
 
