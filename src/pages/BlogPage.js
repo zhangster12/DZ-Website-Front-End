@@ -54,6 +54,7 @@ const Blog = () => {
         <div>
             <div className='layout'>
                 <div className='page-header' id='blog'>Days with Dan!</div>
+                <div className='page-header' id='blog'>New blog coming soon!</div>
                 <div className={loading ? 'loading-hidden' : 'loading-show'}>{getBlogs()}</div>
                 <div className={loading ? 'loading-show': 'loading-hidden'} id='center'><CircularProgress color='primary' /></div>
             </div>

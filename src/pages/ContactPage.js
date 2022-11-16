@@ -102,8 +102,9 @@ class Contact extends Component {
         return(       
             <form className='contact-form' onSubmit={this.handleSubmit} noValidate>
                 <div className='page-header'>Let's talk.</div>
+                <div className='page-header'>New contact form coming sson!</div>
                 <div className='instr'>
-                    Please fill out the form or contact <a className='email' href='mailto: dyzhang@gatech.edu' rel='noopener noreferrer' target='_blank'>dyzhang@gatech.edu</a>.
+                    Please fill out the form or contact <a className='email' href='mailto: zhangster12@gmail.com' rel='noopener noreferrer' target='_blank'>zhangster12@gmail.com</a>.
                 </div>
                 <div className='instruct'>Fields marked with a <span className='red'>∗</span> are required.</div>
                 <div className='form-item'>
