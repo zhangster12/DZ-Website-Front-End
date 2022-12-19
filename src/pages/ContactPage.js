@@ -101,12 +101,12 @@ class Contact extends Component {
     render() {
         return(       
             <form className='contact-form' onSubmit={this.handleSubmit} noValidate>
-                <div className='page-header'>Let's talk.</div>
-                <div className='page-header'>New contact form coming sson!</div>
+                {/* <div className='page-header'>Let's talk.</div> */}
+                <div className='page-header'>New contact form coming soon!</div>
                 <div className='instr'>
                     Please fill out the form or contact <a className='email' href='mailto: zhangster12@gmail.com' rel='noopener noreferrer' target='_blank'>zhangster12@gmail.com</a>.
                 </div>
-                <div className='instruct'>Fields marked with a <span className='red'>∗</span> are required.</div>
+                {/* <div className='instruct'>Fields marked with a <span className='red'>∗</span> are required.</div>
                 <div className='form-item'>
                     <label htmlFor="name">Name <span className='red'>∗</span></label>
                     <input
@@ -148,7 +148,7 @@ class Contact extends Component {
                 </div>
                 <button className='btn' type='submit' disabled={this.state.disabled}>Submit</button>
                 {this.state.emailSent === true && <span className='green' id='message'>Message has been sent.</span>}
-                {this.state.emailSent === false && <span className='red' id='message'>Message was not sent.</span>}
+                {this.state.emailSent === false && <span className='red' id='message'>Message was not sent.</span>} */}
             </form>
         )
     }
