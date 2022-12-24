@@ -1,6 +1,7 @@
-import Axios from 'axios';
+//import Axios from 'axios';
 import React, { Component } from 'react';
 import validator from 'validator';
+import emailjs from '@emailjs/browser';
 
 // CSS import statements
 import '../css/App.css';
@@ -36,9 +37,10 @@ class Contact extends Component {
                 disabled: true,
                 emailSent: null
             });
-            Axios.post(`${process.env.REACT_APP_API_CONTACT_URL}`, this.state)
+            //Axios.post(`${process.env.REACT_APP_API_CONTACT_URL}`, this.state)
+            emailjs.sendForm(`${process.env.REACT_APP_EMAILJS_SERVICE_ID}`, `${process.env.REACT_APP_EMAILJS_TEMPLATE_ID}`, this.state.current, `${process.env.REACT_APP_EMAILJS_PUBLIC_KEY}`)
                 .then(res => {
-                    if(res.data.success) {
+                    if(res) {
                         this.setState({
                             emailSent: true
                         });
@@ -100,13 +102,12 @@ class Contact extends Component {
 
     render() {
         return(       
-            <form className='contact-form' onSubmit={this.handleSubmit} noValidate>
-                {/* <div className='page-header'>Let's talk.</div> */}
-                <div className='page-header'>New contact form coming soon!</div>
+            <form className='contact-form' ref={this.state} onSubmit={this.handleSubmit} noValidate>
+                <div className='page-header'>Let's talk.</div>
                 <div className='instr'>
                     Please fill out the form or contact <a className='email' href='mailto: zhangster12@gmail.com' rel='noopener noreferrer' target='_blank'>zhangster12@gmail.com</a>.
                 </div>
-                {/* <div className='instruct'>Fields marked with a <span className='red'>∗</span> are required.</div>
+                <div className='instruct'>Fields marked with a <span className='red'>∗</span> are required.</div>
                 <div className='form-item'>
                     <label htmlFor="name">Name <span className='red'>∗</span></label>
                     <input
@@ -148,7 +149,7 @@ class Contact extends Component {
                 </div>
                 <button className='btn' type='submit' disabled={this.state.disabled}>Submit</button>
                 {this.state.emailSent === true && <span className='green' id='message'>Message has been sent.</span>}
-                {this.state.emailSent === false && <span className='red' id='message'>Message was not sent.</span>} */}
+                {this.state.emailSent === false && <span className='red' id='message'>Message was not sent.</span>}
             </form>
         )
     }

@@ -38,7 +38,7 @@ function Footer() {
                     </a>
                 </span>
                 <span>
-                    <a href='https://www.youtube.com/channel/UCOMUSbE2BYVBK6P9yLQhV5Q' rel='noopener noreferrer' target='_blank'>
+                    <a href='https://www.youtube.com/@DanCooksFood' rel='noopener noreferrer' target='_blank'>
                         <img src={YouTube} alt='YouTube' />
                     </a>
                 </span>
@@ -51,7 +51,7 @@ function Footer() {
             <div>
                 <span className='footer-menu' id='footer-link'><a href='/'>Home</a></span>
                 <span className='footer-menu' id='footer-link'><a href='/about'>About</a></span>
-                <span className='footer-menu' id='footer-link'><a href='/blog'>Blog</a></span>
+                <span className='footer-menu' id='footer-link'><a href='https://dyzhang4.wixsite.com/daniel-zhang' rel='noopener noreferrer' target='_blank'>Blog</a></span>
                 <span className='footer-menu' id='footer-link'><a href='/contact'>Contact</a></span>
                 <span className='footer-menu' id='footer-darkmode'><DarkMode /></span>
             </div>

@@ -6,8 +6,8 @@ import './css/App.css';
 
 // Component import statements
 import About from './pages/AboutPage.js';
-import Blog from './pages/BlogPage.js';
-import BlogDetail from './components/BlogDetail';
+//import Blog from './pages/BlogPage.js';
+//import BlogDetail from './components/BlogDetail';
 import Contact from './pages/ContactPage.js';
 import Footer from './components/Footer.js';
 import Home from './pages/HomePage.js';
@@ -24,8 +24,8 @@ class App extends React.Component {
                     <Route exact path='/' component={Home} />
                     <Route exact path='/about' component={About} />
                     {/* Adds blog and blog pages (BlogDetail). */}
-                    <Route exact path='/blog' component={Blog} />
-                    <Route exact path='/blog/:id' component={BlogDetail} />
+                    {/* <Route exact path='/blog' component={Blog} />
+                    <Route exact path='/blog/:id' component={BlogDetail} /> */}
                     <Route exact path='/contact' component={Contact} />
                     {/* Adds page not found. */}
                     <Route component={Home} />
