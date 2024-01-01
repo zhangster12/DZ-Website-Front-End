@@ -1,6 +1,6 @@
 // Image import statements https://www.quickpicturetools.com/en/rounded_corners/ (use 12.5% for rounded corners)
 import Sikorsky from '../img/Sikorsky.png';
-import Sub from '../img/Columbia.png';
+// import Sub from '../img/Columbia.png';
 import Tower from '../img/TechTower.png';
 import Axis from '../img/AxisGroup.png';
 

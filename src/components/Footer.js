@@ -9,7 +9,7 @@ import '../css/Footer.css';
 import GitHub from '../img/footer/github.png';
 import LinkedIn from '../img/footer/linkedIn.png';
 import Mail from '../img/footer/mail.png';
-import Resume from '../img/footer/resume.png';
+// import Resume from '../img/footer/resume.png';
 import YouTube from '../img/footer/youtube.png';
 import TikTok from '../img/footer/tiktok.png';
 
