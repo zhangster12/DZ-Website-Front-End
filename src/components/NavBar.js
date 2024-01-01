@@ -22,7 +22,7 @@ function NavBar() {
             <div id='nav-links' className={open ? 'nav-open' : 'nav-collasped'}>
                 <a href='/'>Home</a>
                 <a href='/about'>About</a>
-                <a href='https://dyzhang4.wixsite.com/daniel-zhang' rel='noopener noreferrer' target='_blank'>Blog</a>
+                {/*<a href='https://dyzhang4.wixsite.com/daniel-zhang' rel='noopener noreferrer' target='_blank'>Blog</a> */}
                 <a href='/contact'>Contact</a>
                 {/* <div className='darkmode'><DarkMode /></div> */}
             </div>

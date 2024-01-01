@@ -23,15 +23,15 @@ function Footer() {
                     </a>
                 </span>
                 <span>
-                    <a href='mailto: dyzhang@gatech.edu' rel='noopener noreferrer' target='_blank'>
+                    <a href='mailto: zhangster12@gmail.com' rel='noopener noreferrer' target='_blank'>
                         <img src={Mail} alt='Email' />
                     </a>
                 </span>
-                <span>
+                {/* <span>
                     <a href={ResumePDF} rel='noopener noreferrer' target='_blank'>
                         <img src={Resume} alt='Resume' />
                     </a>
-                </span>
+                </span> */}
                 <span>
                     <a href='https://github.com/zhangster12' rel='noopener noreferrer' target='_blank'>
                         <img src={GitHub} alt='GitHub' />

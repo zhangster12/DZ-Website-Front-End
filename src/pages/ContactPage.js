@@ -107,9 +107,9 @@ class Contact extends Component {
                 <div className='instr'>
                     Please fill out the form or contact <a className='email' href='mailto: zhangster12@gmail.com' rel='noopener noreferrer' target='_blank'>zhangster12@gmail.com</a>.
                 </div>
-                <div className='instruct'>Fields marked with a <span className='red'>∗</span> are required.</div>
+                <div className='instruct'>Fields marked with a <span className='red'>*</span> are required.</div>
                 <div className='form-item'>
-                    <label htmlFor="name">Name <span className='red'>∗</span></label>
+                    <label htmlFor="name">Name <span className='red'>*</span></label>
                     <input
                         type='text'
                         name='name'
@@ -119,7 +119,7 @@ class Contact extends Component {
                     <div className='red'>{this.state.nameError}</div>
                 </div>
                 <div className='form-item'>
-                    <label htmlFor='email'>Email <span className='red'>∗</span></label>
+                    <label htmlFor='email'>Email <span className='red'>*</span></label>
                     <input type='email'
                         name='email'
                         value={this.state.email}
@@ -128,7 +128,7 @@ class Contact extends Component {
                     <div className='red'>{this.state.emailError}</div>
                 </div>
                 <div className='form-item'>
-                    <label htmlFor='subject'>Subject <span className='red'>∗</span></label>
+                    <label htmlFor='subject'>Subject <span className='red'>*</span></label>
                     <input
                         type='text'
                         name='subject'
@@ -138,7 +138,7 @@ class Contact extends Component {
                     <div className='red'>{this.state.subjectError}</div>
                 </div>
                 <div className='form-item'>
-                    <label htmlFor='message'>Message <span className='red'>∗</span></label>
+                    <label htmlFor='message'>Message <span className='red'>*</span></label>
                     <textarea
                         name='message'
                         rows='10'
@@ -148,7 +148,7 @@ class Contact extends Component {
                     <div className='red'>{this.state.messageError}</div>
                 </div>
                 <button className='btn' type='submit' disabled={this.state.disabled}>Submit</button>
-                {this.state.emailSent === true && <span className='green' id='message'>Message has been sent.</span>}
+                {this.state.emailSent === true && <span className='green' id='message'>Message has been sent. Please refresh to sent another message.</span>}
                 {this.state.emailSent === false && <span className='red' id='message'>Message was not sent.</span>}
             </form>
         )

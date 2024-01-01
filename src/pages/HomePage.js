@@ -27,7 +27,7 @@ class Home extends React.Component {
                 <hr />
                 <div className='exp-header'>Check out my YouTube channel!</div>
                 <div className='home-video'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/cc-Oci0u-eI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LmBm2D68LOk?si=O1_RLsqCHIkUgqVB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <hr />
                 <div className='exp-header'>Here's what I've been up to</div>
