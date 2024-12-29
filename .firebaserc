@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "daniel-zhang-portfolio"
-  }
+  },
+  "targets": {
+    "daniel-zhang-portfolio": {
+      "hosting": {
+        "default": [
+          "daniel-zhang-portfolio"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

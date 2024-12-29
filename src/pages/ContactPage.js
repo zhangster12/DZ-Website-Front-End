@@ -105,9 +105,10 @@ class Contact extends Component {
             <form className='contact-form' ref={this.state} onSubmit={this.handleSubmit} noValidate>
                 <div className='page-header'>Let's talk.</div>
                 <div className='instr'>
-                    Please fill out the form or contact <a className='email' href='mailto: zhangster12@gmail.com' rel='noopener noreferrer' target='_blank'>zhangster12@gmail.com</a>.
+                    The form is broken at the moment, so please email <a className='email' href='mailto: zhangster12@gmail.com' rel='noopener noreferrer' target='_blank'>zhangster12@gmail.com</a>.
+                    {/*Please fill out the form or contact <a className='email' href='mailto: zhangster12@gmail.com' rel='noopener noreferrer' target='_blank'>zhangster12@gmail.com</a>.*/}
                 </div>
-                <div className='instruct'>Fields marked with a <span className='red'>*</span> are required.</div>
+                {/*<div className='instruct'>Fields marked with a <span className='red'>*</span> are required.</div>
                 <div className='form-item'>
                     <label htmlFor="name">Name <span className='red'>*</span></label>
                     <input
@@ -150,6 +151,7 @@ class Contact extends Component {
                 <button className='btn' type='submit' disabled={this.state.disabled}>Submit</button>
                 {this.state.emailSent === true && <span className='green' id='message'>Message has been sent. Please refresh to sent another message.</span>}
                 {this.state.emailSent === false && <span className='red' id='message'>Message was not sent.</span>}
+                */}
             </form>
         )
     }

@@ -10,11 +10,11 @@ let HomePageContent = {
         alt: 'Georgia Tech',
         name: 'Georgia Institute of Technology 🐝',
         link: 'https://www.gatech.edu/',
-        title: 'MS in Bioengineering, BS in Aerospace Engineering, Certificate in Entrepreneurship',
+        title: 'PhD and MS in Bioengineering, BS in Aerospace Engineering, Certificate in Entrepreneurship',
         time: 'August 2022 - Present, August 2015 - May 2019',
         location: 'Atlanta, GA',
         desc: [
-            'After working for a few years, I returned to Georgia Tech as a Bioengineering graduate student, where I\'m currently pursuing a Master\'s degree, and my research is in neuroscience and TBI, in which I\'m progressing towards my thesis on analyzing glymphatic efflux after TBI. After completing my Master\'s degree, I\'m looking to puruse a Ph.D. and contribute to research in the field of aging.',
+            'After working for a few years, I returned to Georgia Tech as a Bioengineering graduate student, where I\'m currently pursuing a PhD and completed a Master\'s degree, in which my my thesis was entitled \'Quantifying glymphatic system efflux following rmTBI\'.',
             'During my undergraduate years, Georgia Tech provided extraordinary growth and opportunity. My four years of phenomenal professors across different disciplines encouraged me to find my passion for learning. My involvement at Georgia Tech Swim Club enriched my experience and surrounded me with a group of lifelong friends. My experience lifeguarding at the GT McAuley Aquatic Center helped me to develop my leadership and confidence and deal with high stress situations calmly. My two semesters abroad in Hong Kong and Ireland humbled me to explore other cultures and this world. While designing a space flight mission concept and formulating business plan idea, I learned that effective communication leads to quality results.',
             'Georgia Tech brought me out of my comfort zone, opened my mind to different possibilities, and strengthened my tolerance to adversity.'
         ],
